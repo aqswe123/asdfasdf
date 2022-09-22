@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="서환" />
+    <meta name="keywords" content="big data, django, python">
+    <title>Welcome to asqwe123 World</title>
+</head>
+<body>
+    <h1> hwan shop</h1>
+  
+    <!--header+nav+section>article*3+aside^footer-->
+    <header>
+        <img src="./images/logo.jpg" />
+        <h1>seohwan site</h1>
+</header>            
+<nav>
+    <!--ul>li*5{메인메뉴$}-->
+<ul>
+    <li>메인메뉴1</li>
+    <li>메인메뉴2</li>
+    <li>메인메뉴3</li>
+    <li>메인메뉴4</li>
+    <li>메인메뉴5</li>
+</ul>
+</nav>
+<section>
+    <article>
+<div class="photo">      <!-- #하면 id가 나옴 .하면 class나옴 
+    id는 이름이 유일해야함 class는 동일한 이름이 있어도 ㄱㅊ-->
+    <img src="./images/bigdata.jpg" />
+</div>
+<div class="action">      <!--테이블 만들기 table>tr>th*3^tr*3>td*3-->
+    <h2>대외활동리스트</h2>
+    <table border="1">
+        <tr>
+            <th>기간</th>
+            <th>대외활동</th>
+            <th>주체</th>
+        </tr>
+        <tr>
+            <td>2021.03.</td>
+            <td>마케팅전략 경진대회</td>
+            <td>정보시스템학회</td>
+        </tr>
+        <tr>
+            <td>2022.05.</td>
+            <td>롯데 빅데이터 경진대회</td>
+            <td>롯데그룹</td>
+        </tr>
+        <tr>
+            <td>2022.08.</td>
+            <td>머신러닝 교육프로그램</td>
+            <td>동아대학교</td>
+        </tr>
+    </table>
+</div>
+    </article>
+    <br><br>            <!--br은 줄바꿈, 간격 세로로 벌릴때 ㄱ-->
+    <article>
+        <div class="media">
+            <h2>음악쓰</h2>
+            <audio src="./media/music01.mp3" controls></audio>
+            <br>
+            <h2>갈매기 먹방</h2>
+            <video src="./media/movie.mp4" controls width="30%"></video>
+            <h2>브금저장소</h2>
+            <iframe width="865" height="487" src="https://www.youtube.com/embed/cMTdq4VGqoI" title="공부할 때 듣기 좋은 메이플스토리 BGM 모음 500곡, 18시간, 18년 MapleStory BGM Compilation 500 Tracks, 18 Hours, 18 Years" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </article>
+    <article></article>
+    <aside>
+        즐겨찾기 넣기
+    </aside>
+</section>
+<footer>
+    copyright@서환
+</footer>
+</body>
+</html>
